@@ -8,15 +8,14 @@ document.getElementById('startButton').addEventListener('click', function() {
     }
 
     const targetDate = new Date(targetDateInput).getTime();
-    clearInterval(countdownInterval);
+    clearInterval(countdownInterval); 
 
     countdownInterval = setInterval(function() {
         const now = new Date().getTime();
         const distance = targetDate - now;
 
         const currentDate = new Date();
-        const currentDateString = currentDate.toLocaleString(); // Localized format
-
+        const currentDateString = currentDate.toLocaleString(); 
         document.getElementById('currentDate').innerHTML = "Current Date & Time: " + currentDateString;
 
         if (distance <= 0) {
