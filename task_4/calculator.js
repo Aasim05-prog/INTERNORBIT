@@ -34,7 +34,6 @@ function clearDisplay() {
     operator = null;
     document.getElementById('display').value = '';
 }
-
 function backspace() {
     currentInput = currentInput.slice(0, -1);
     document.getElementById('display').value = currentInput;
