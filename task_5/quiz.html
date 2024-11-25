@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div id="intro-screen" style="text-align: center;">
+        <h1>Are you ready to start the quiz?</h1>
+        <button id="start-btn">Start Quiz</button>
+    </div>
+    <div id="quiz" style="display: none;">
+        <div id="question-container">
+        </div>
+        <p id="progress">Attempted: 0 / 10 | Remaining: 10</p>
+        <button id="back-btn" style="display: none;">Back</button>
+        <button id="next-btn">Next</button>
+        <button id="submit-btn">Submit Quiz</button>
+    </div>
+
+    <div id="result" style="display: none;">
+        <h3>Your score: 0 / 10</h3>
+        <button id="repeat-btn">Repeat Quiz</button>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
