@@ -20,7 +20,7 @@ function setOperation(op) {
 
 function calculateResult() {
     try {
-        let result = eval(currentInput); // Keep in mind eval can be unsafe
+        let result = eval(currentInput); 
         currentInput = result.toString();
         document.getElementById('display').value = currentInput;
         operator = null;
