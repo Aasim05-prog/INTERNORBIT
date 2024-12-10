@@ -11,8 +11,8 @@ const quizData = [
     },
     {
         question: "Which is the longest river in India?",
-        options: ["Ganges", "Yamuna", "Godavari", "Narmada"],
-        correctAnswer: "Ganges"
+        options: ["Ganga", "Yamuna", "Godavari", "Narmada"],
+        correctAnswer: "Ganga"
     },
     {
         question: "Who was the captain of the Indian cricket team during the 2011 World Cup?",
